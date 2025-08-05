@@ -1,4 +1,4 @@
-package authplugin
+package netgateway
 
 import (
 	"context"
