@@ -12,22 +12,20 @@ Aşağıdaki parametreler `dynamic configuration` içinde plugin'e atanmalıdır
 
 ### Authentication Ayarları
 
-| Parametre      | Tip     | Açıklama                                                                 |
-|----------------|---------|--------------------------------------------------------------------------|
-| `authUrl`      | string  | OAuth token doğrulama endpoint’i (örnek: `http://auth.local/oauth/token`) |
-| `clientId`     | string  | OAuth Client ID                                                          |
-| `clientSecret` | string  | OAuth Client Secret                                                      |
-| `redirectUri`  | string  | OAuth Redirect URI                                                       |
-| `scope`        | string  | OAuth scope değeri (örnek: `sms`)                                        |
+| Parametre      | Tip    | Açıklama                                                                  |
+| -------------- | ------ | ------------------------------------------------------------------------- |
+| `authUrl`      | string | OAuth token doğrulama endpoint’i (örnek: `http://auth.local/oauth/token`) |
+| `clientId`     | string | OAuth Client ID                                                           |
+| `clientSecret` | string | OAuth Client Secret                                                       |
+| `redirectUri`  | string | OAuth Redirect URI                                                        |
+| `scope`        | string | OAuth scope değeri (örnek: `sms`)                                         |
 
 ### Log Ayarları
 
-| Parametre      | Tip     | Açıklama                                                                 |
-|----------------|---------|--------------------------------------------------------------------------|
-| `logHost`      | string  | Log sunucusunun host adresi (örnek: `log.elk.storage.dmz`)               |
-| `logPort`      | int     | UDP log portu (default: `514`)                                           |
-| `logProgram`   | string  | Uygulama ismi (örnek: `voicemicroservices`)                              |
-| `logService`   | string  | Hizmet ismi (örnek: `mail`)                                              |
-| `logRetention` | string  | Log retention süresi (örnek: `yearly`, `monthly`)                         |
-
----
+| Parametre      | Tip    | Açıklama                                                   |
+| -------------- | ------ | ---------------------------------------------------------- |
+| `logHost`      | string | Log sunucusunun host adresi (örnek: `log.elk.storage.dmz`) |
+| `logPort`      | int    | UDP log portu (default: `514`)                             |
+| `logProgram`   | string | Uygulama ismi (örnek: `voicemicroservices`)                |
+| `logService`   | string | Hizmet ismi (örnek: `mail`)                                |
+| `logRetention` | string | Log retention süresi (örnek: `yearly`, `monthly`)          |
