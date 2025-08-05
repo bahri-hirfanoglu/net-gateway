@@ -24,8 +24,8 @@ Aşağıdaki parametreler `dynamic configuration` içinde plugin'e atanmalıdır
 
 | Parametre      | Tip    | Açıklama                                                   |
 | -------------- | ------ | ---------------------------------------------------------- |
-| `logHost`      | string | Log sunucusunun host adresi (örnek: `log.elk.storage.dmz`) |
+| `logHost`      | string | Log sunucusunun host adresi (örnek: ``) |
 | `logPort`      | int    | UDP log portu (default: `514`)                             |
-| `logProgram`   | string | Uygulama ismi (örnek: `voicemicroservices`)                |
-| `logService`   | string | Hizmet ismi (örnek: `mail`)                                |
+| `logProgram`   | string | Uygulama ismi (örnek: ``)                |
+| `logService`   | string | Hizmet ismi (örnek: ``)                                |
 | `logRetention` | string | Log retention süresi (örnek: `yearly`, `monthly`)          |
